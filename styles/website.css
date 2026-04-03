@@ -1,0 +1,91 @@
+/* 程式碼複製按鈕 */
+.copy-code-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px 8px;
+  background: #313E4E;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+pre:hover .copy-code-button {
+  opacity: 1;
+}
+
+/* 世新大學品牌色系 */
+.book-header h1 {
+  color: #003366;
+}
+
+.markdown-section h1,
+.markdown-section h2 {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 0.3em;
+}
+
+/* 程式碼區塊優化 */
+.markdown-section pre {
+  position: relative;
+  border-radius: 4px;
+}
+
+.markdown-section code {
+  font-family: 'Maple Mono NF CN', 'Fira Code', 'Consolas', monospace;
+  font-size: 0.9em;
+}
+
+/* 表格樣式優化 */
+.markdown-section table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.markdown-section table th,
+.markdown-section table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.markdown-section table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.markdown-section table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* 圖片置中 */
+.markdown-section img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* 側邊欄優化 */
+.book-summary {
+  border-right: 1px solid #e8e8e8;
+}
+
+.book-summary ul.summary li.active > a {
+  color: #003366;
+  border-left: 3px solid #003366;
+}
+
+/* 列印優化 */
+@media print {
+  .book-header,
+  .book-summary {
+    display: none;
+  }
+  .book-body {
+    padding-left: 0;
+  }
+}

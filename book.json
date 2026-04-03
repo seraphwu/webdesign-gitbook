@@ -1,0 +1,35 @@
+{
+  "title": "113-2 網頁設計(甲) - 世新大學資訊傳播學系",
+  "author": "吳林展",
+  "description": "世新大學資訊傳播學系網頁設計課程教材，涵蓋 HTML、CSS、響應式設計、Bootstrap 框架等主題。",
+  "language": "zh-hant",
+  "direction": "ltr",
+  "root": ".",
+  "plugins": [
+    "copy-code-button",
+    "-highlight",
+    "-lunr",
+    "-search"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true,
+      "styles": {
+        "website": "styles/website.css"
+      }
+    },
+    "copy-code-button": {}
+  },
+  "links": {
+    "sidebar": {
+      "世新大學資訊傳播學系": "https://ics.wp.shu.edu.tw"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  }
+}
