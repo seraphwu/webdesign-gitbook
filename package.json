@@ -1,0 +1,31 @@
+{
+  "name": "webdesign-gitbook",
+  "version": "1.0.0",
+  "description": "世新大學資訊傳播學系 | 授課教師：吳林展 — 網頁設計課程教材",
+  "main": "index.js",
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve",
+    "deploy": "gh-pages -d _book",
+    "clean": "rimraf _book"
+  },
+  "keywords": [
+    "web-design",
+    "html",
+    "css",
+    "bootstrap",
+    "shu",
+    "gitbook",
+    "honkit"
+  ],
+  "author": "吳林展",
+  "license": "MIT",
+  "devDependencies": {
+    "honkit": "^6.0.0",
+    "gh-pages": "^6.0.0",
+    "rimraf": "^6.0.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-copy-code-button": "^0.0.2"
+  }
+}

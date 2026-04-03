@@ -1,0 +1,16 @@
+# Git 忽略檔案
+
+## 編譯輸出
+_book/
+
+## 依賴
+node_modules/
+
+## 系統檔案
+.DS_Store
+Thumbs.db
+*.log
+
+## IDE
+.vscode/
+.idea/
